@@ -2,17 +2,17 @@ import { useState } from 'react';
 import { Combobox } from '@headlessui/react';
 import { useQuery } from '@tanstack/react-query';
 
-const people = [
-	'Durward Reynolds',
-	'Kenton Towne',
-	'Therese Wunsch',
-	'Benedict Kessler',
-	'Katelyn Rohan'
-];
+// const people = [
+// 	'Durward Reynolds',
+// 	'Kenton Towne',
+// 	'Therese Wunsch',
+// 	'Benedict Kessler',
+// 	'Katelyn Rohan'
+// ];
 
 function ReactQueryHeadlessUI() {
-	const [selectedPerson, setSelectedPerson] = useState('');
-	const [query, setQuery] = useState('');
+	// const [selectedPerson, setSelectedPerson] = useState('');
+	// const [query, setQuery] = useState('');
 	const [queryFilm, setQueryFilm] = useState('');
 
 	const fetchFilm = async () => {
