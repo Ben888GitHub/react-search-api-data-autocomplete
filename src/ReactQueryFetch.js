@@ -1,4 +1,4 @@
-import { useState, Fragment } from 'react';
+import { useState } from 'react';
 import { ReactSearchAutocomplete } from 'react-search-autocomplete';
 import { useQuery } from '@tanstack/react-query';
 
@@ -17,7 +17,6 @@ const formatResult = (item) => {
 
 function ReactQueryFetch() {
 	const [queryFilm, setQueryFilm] = useState('');
-	const [searchMovies, setSearchMovies] = useState([]);
 
 	const fetchFilm = async () => {
 		const movies = await fetch(

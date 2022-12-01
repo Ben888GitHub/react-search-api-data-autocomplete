@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react';
-import { ReactSearchAutocomplete } from 'react-search-autocomplete';
+// import { useEffect, useState } from 'react';
+// import { ReactSearchAutocomplete } from 'react-search-autocomplete';
 import './App.css';
 import ReactQueryFetch from './ReactQueryFetch';
 
@@ -38,8 +38,8 @@ const formatResult = (item) => {
 };
 
 function App() {
-	const [searchMovies, setSearchMovies] = useState([]);
-	const [queryFilm, setQueryFilm] = useState('');
+	// const [searchMovies, setSearchMovies] = useState([]);
+	// const [queryFilm, setQueryFilm] = useState('');
 
 	// const fetchMovies = async () => {
 	// 	const getMovies = await fetch(
