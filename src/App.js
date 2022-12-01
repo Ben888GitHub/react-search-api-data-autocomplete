@@ -1,7 +1,8 @@
 // import { useEffect, useState } from 'react';
 // import { ReactSearchAutocomplete } from 'react-search-autocomplete';
 import './App.css';
-import ReactQueryFetch from './ReactQueryFetch';
+// import ReactQueryFetch from './ReactQueryFetch';
+import ReactQueryHeadlessUI from './ReactQueryHeadlessUI';
 
 // const items = [
 // 	{
@@ -69,7 +70,9 @@ function App() {
 					maxResults={10}
 				/>
 			</div> */}
-			<ReactQueryFetch />
+			{/* <ReactQueryFetch /> */}
+			{/* <br /> */}
+			<ReactQueryHeadlessUI />
 		</div>
 	);
 }

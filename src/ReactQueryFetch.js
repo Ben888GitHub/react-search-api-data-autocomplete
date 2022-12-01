@@ -21,8 +21,9 @@ function ReactQueryFetch() {
 	const fetchFilm = async () => {
 		const movies = await fetch(
 			`https://api.themoviedb.org/3/search/multi?api_key=456ec94d71f9702ddcbbc1166b40f922&language=en-US&query=${queryFilm}`
-		).then((r) => r.json());
-		return movies;
+		);
+		const moviesJson = await movies.json();
+		return moviesJson;
 	};
 
 	const { data } = useQuery({
