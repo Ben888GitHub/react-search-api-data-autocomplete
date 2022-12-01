@@ -40,6 +40,7 @@ function ReactQueryHeadlessUI() {
 				film.name?.toLowerCase().includes(queryFilm.toLowerCase()) ||
 				film.original_title?.toLowerCase().includes(queryFilm.toLowerCase())
 		)
+		.slice(0, 10)
 		.map((film) => (
 			<Combobox.Option key={film.id} value={film.name || film.original_title}>
 				{film.name || film.original_title}
