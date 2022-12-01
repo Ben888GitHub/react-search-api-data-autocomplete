@@ -27,10 +27,10 @@ function ReactQueryFetch() {
 
 	const { data } = useQuery({
 		queryKey: ['films', queryFilm],
-		queryFn: () => queryFilm && fetchFilm(queryFilm),
+		queryFn: () => fetchFilm(queryFilm),
 		enabled: Boolean(queryFilm), // this is to prevent auto-refetch
 		refetchOnWindowFocus: false,
-		refetchOnMount: 'always',
+		refetchOnMount: true,
 		keepPreviousData: true
 	});
 
