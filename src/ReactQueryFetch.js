@@ -30,7 +30,7 @@ function ReactQueryFetch() {
 		queryFn: () => queryFilm && fetchFilm(queryFilm),
 		enabled: Boolean(queryFilm), // this is to prevent auto-refetch
 		refetchOnWindowFocus: false,
-		refetchOnMount: false,
+		refetchOnMount: 'always',
 		keepPreviousData: true
 	});
 
