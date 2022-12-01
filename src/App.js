@@ -3,39 +3,39 @@
 import './App.css';
 import ReactQueryFetch from './ReactQueryFetch';
 
-const items = [
-	{
-		id: 0,
-		name: 'Cobol'
-	},
-	{
-		id: 1,
-		name: 'JavaScript'
-	},
-	{
-		id: 2,
-		name: 'Basic'
-	},
-	{
-		id: 3,
-		name: 'PHP'
-	},
-	{
-		id: 4,
-		name: 'Java'
-	}
-];
+// const items = [
+// 	{
+// 		id: 0,
+// 		name: 'Cobol'
+// 	},
+// 	{
+// 		id: 1,
+// 		name: 'JavaScript'
+// 	},
+// 	{
+// 		id: 2,
+// 		name: 'Basic'
+// 	},
+// 	{
+// 		id: 3,
+// 		name: 'PHP'
+// 	},
+// 	{
+// 		id: 4,
+// 		name: 'Java'
+// 	}
+// ];
 
-const formatResult = (item) => {
-	return (
-		<>
-			<span style={{ display: 'block', textAlign: 'left' }}>id: {item.id}</span>
-			<span style={{ display: 'block', textAlign: 'left' }}>
-				name: {item.name}
-			</span>
-		</>
-	);
-};
+// const formatResult = (item) => {
+// 	return (
+// 		<>
+// 			<span style={{ display: 'block', textAlign: 'left' }}>id: {item.id}</span>
+// 			<span style={{ display: 'block', textAlign: 'left' }}>
+// 				name: {item.name}
+// 			</span>
+// 		</>
+// 	);
+// };
 
 function App() {
 	// const [searchMovies, setSearchMovies] = useState([]);
